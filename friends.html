@@ -1,0 +1,354 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@500;600;700;800;900&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.1/css/all.min.css">
+    <link rel="icon" href="Images/Logo.jpg">
+    <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="friends.css">
+    <title>Friends</title>
+</head>
+<div class="section">
+    <div class="sidebar">
+        <h1>Matrix</h1>
+        <ul>
+            <li>
+                <a href="index.html">
+                    <i class="fa-solid fa-chart-bar"></i>
+                    <span>Dashboard</span>
+                </a>
+            </li>
+            <li>
+                <a href="settings.html">
+                    <i class="fa-solid fa-gear"></i>
+                    <span>Settings</span>
+                </a>
+            </li>
+            <li>
+                <a href="profile.html">
+                    <i class="fa-solid fa-user"></i>
+                    <span>Profile</span>
+                </a>
+            </li>
+            <li>
+                <a href="projects.html">
+                    <i class="fa-solid fa-diagram-project"></i>
+                    <span>Projects</span>
+                </a>
+            </li>
+            <li>
+                <a href="courses.html">
+                    <i class="fa-solid fa-graduation-cap"></i>
+                    <span>Courses</span>
+                </a>
+            </li>
+            <li>
+                <a id="active" href="friends.html">
+                    <i class="fa-solid fa-user-plus"></i>
+                    <span>Friends</span>
+                </a>
+            </li>
+            <li>
+                <a href="plans.html">
+                    <i class="fa-brands fa-cc-visa"></i>
+                    <span>Plans</span>
+                </a>
+            </li>
+        </ul>
+    </div>
+    <div class="content">
+        <div class="header">
+            <div class="search">
+                <input type="search" placeholder="Type A Keyword">
+            </div>
+            <div class="icons">
+                <span class="notifications" onclick="menuToggle()">
+                    <i class="fa-solid fa-bell fa-lg"></i>
+                </span>
+                <img src="Images/avatar.png" onclick="menuToggle0()">
+            </div>
+            <div class="profile-container">
+                <div class="profile-image">
+                    <img src="Images/avatar.png">
+                </div>
+                <div class="profile-title">
+                    <h3>Youssef Mohammed</h3>
+                </div>
+                <div class="profile-name">
+                    <span>Front End Developer</span>
+                </div>
+                <div class="profile-social">
+                    <i class="fa-brands fa-facebook"></i>
+                    <i class="fa-brands fa-twitter"></i>
+                    <i class="fa-brands fa-instagram"></i>
+                    <i class="fa-brands fa-youtube"></i>
+                </div>
+                <div class="buttons">
+                    <a href="#" class="profile-button-1">Follow Me</a>
+                    <a href="#" class="profile-button-2">Message</a>
+                </div>
+                <div class="react-box">
+                    <i class="fa-solid fa-heart"></i>60.5K
+                    <i class="fa-solid fa-comment"></i>20K
+                    <i class="fa-solid fa-share-nodes"></i>12.2K
+                </div>
+            </div>
+            <div class="not-menu">
+                <div class="top-bar">
+                    <h2>Notifications</h2>
+                    <i class="fa-solid fa-ellipsis"></i>
+                </div>
+                <div class="second-bar">
+                    <h4>New</h4>
+                    <span>See All</span>
+                </div>
+                <div class="content-bar">
+                    <img src="Images/team-01.png">
+                    <span>Amir Liked Your Post.</span>
+                    <p>about an hour ago</p>
+                </div>
+                <div class="content-bar">
+                    <img src="Images/team-02.png">
+                    <span>Alaa Liked Your Video.</span>
+                    <p>about an 2 hours ago</p>
+                </div>
+                <div class="content-bar">
+                    <img src="Images/team-03.png">
+                    <span>Mohammed Followed You.</span>
+                    <p>about an 2 hours ago</p>
+                </div>
+                <div class="content-bar">
+                    <img src="Images/team-04.png">
+                    <span>Eslam Liked Your Post.</span>
+                    <p>about an 3 hours ago</p>
+                </div>
+                <div class="content-bar">
+                    <img src="Images/team-01.png">
+                    <span>Sayed Followed You.</span>
+                    <p>about an 4 hours ago</p>
+                </div>
+                <div class="content-bar">
+                    <img src="Images/team-02.png">
+                    <span>Amira Liked Your Post.</span>
+                    <p>about an 5 hours ago</p>
+                </div>
+                <div class="content-bar">
+                    <img src="Images/team-05.png">
+                    <span>Ahmed Mentiond You.</span>
+                    <p>about an 8 hours ago</p>
+                </div>
+            </div>
+        </div>
+        <h1 class="title">Friends</h1>
+        <div class="friends-page">
+            <div class="friend">
+                <div class="contact">
+                    <i class="fa-solid fa-phone"></i>
+                    <i class="fa-solid fa-envelope-circle-check"></i>
+                </div>
+                <div class="contact-info">
+                    <img src="Images/friend-01.jpg">
+                    <h4>Kareem Elsaid</h4>
+                    <p>Javascript Developer</p>
+                </div>
+                <div class="contact-icons">
+                    <div class="contact-icons-child">
+                        <i class="fa-solid fa-face-smile orange"> 88 Friends</i>
+                        <i class="fa-solid fa-chalkboard-user green"> 13 Projects</i>
+                        <i class="fa-solid fa-newspaper blue"> 20 Articles</i>
+                    </div>
+                </div>
+                <div class="info">
+                    <span>Joined 02/10/2020</span>
+                    <div class="buttons">
+                        <a class="profile-btn" href="profile.html">Profile</a>
+                        <a class="remove-btn" href="#">Remove</a>
+                    </div>
+                </div>
+            </div>
+            <div class="friend">
+                <div class="contact">
+                    <i class="fa-solid fa-phone"></i>
+                    <i class="fa-solid fa-envelope-circle-check"></i>
+                </div>
+                <div class="contact-info">
+                    <img src="Images/friend-02.jpg">
+                    <h4>Ahmed Mahmoud</h4>
+                    <p>PHP Developer</p>
+                </div>
+                <div class="contact-icons">
+                    <div class="contact-icons-child">
+                        <i class="fa-solid fa-face-smile orange"> 56 Friends</i>
+                        <i class="fa-solid fa-chalkboard-user green"> 10 Projects</i>
+                        <i class="fa-solid fa-newspaper blue"> 23 Articles</i>
+                    </div>
+                </div>
+                <div class="info">
+                    <span>Joined 10/08/2020</span>
+                    <div class="buttons">
+                        <a class="profile-btn" href="profile.html">Profile</a>
+                        <a class="remove-btn" href="#">Remove</a>
+                    </div>
+                </div>
+            </div>
+            <div class="friend">
+                <div class="contact">
+                    <i class="fa-solid fa-phone"></i>
+                    <i class="fa-solid fa-envelope-circle-check"></i>
+                </div>
+                <div class="contact-info">
+                    <img src="Images/friend-03.jpg">
+                    <h4>Elsayed Essam</h4>
+                    <p>Python Developer</p>
+                </div>
+                <div class="contact-icons">
+                    <div class="contact-icons-child">
+                        <i class="fa-solid fa-face-smile orange"> 80 Friends</i>
+                        <i class="fa-solid fa-chalkboard-user green"> 15 Projects</i>
+                        <i class="fa-solid fa-newspaper blue"> 12 Articles</i>
+                    </div>
+                </div>
+                <div class="info">
+                    <span>Joined 27/11/2022</span>
+                    <div class="buttons">
+                        <a class="profile-btn" href="profile.html">Profile</a>
+                        <a class="remove-btn" href="#">Remove</a>
+                    </div>
+                </div>
+            </div>
+            <div class="friend">
+                <div class="contact">
+                    <i class="fa-solid fa-phone"></i>
+                    <i class="fa-solid fa-envelope-circle-check"></i>
+                </div>
+                <div class="contact-info">
+                    <img src="Images/friend-04.jpg">
+                    <h4>Abdelrahman Mohamed</h4>
+                    <p>Javascript Developer</p>
+                </div>
+                <div class="contact-icons">
+                    <div class="contact-icons-child">
+                        <i class="fa-solid fa-face-smile orange"> 70 Friends</i>
+                        <i class="fa-solid fa-chalkboard-user green"> 15 Projects</i>
+                        <i class="fa-solid fa-newspaper blue"> 15 Articles</i>
+                    </div>
+                </div>
+                <div class="info">
+                    <span>Joined 26/07/2023</span>
+                    <div class="buttons">
+                        <a class="profile-btn" href="profile.html">Profile</a>
+                        <a class="remove-btn" href="#">Remove</a>
+                    </div>
+                </div>
+            </div>
+            <div class="friend">
+                <div class="contact">
+                    <i class="fa-solid fa-phone"></i>
+                    <i class="fa-solid fa-envelope-circle-check"></i>
+                </div>
+                <div class="contact-info">
+                    <img src="Images/friend-05.jpg">
+                    <h4>Radwan Gaber</h4>
+                    <p>Djanjo Developer</p>
+                </div>
+                <div class="contact-icons">
+                    <div class="contact-icons-child">
+                        <i class="fa-solid fa-face-smile orange"> 90 Friends</i>
+                        <i class="fa-solid fa-chalkboard-user green"> 50 Projects</i>
+                        <i class="fa-solid fa-newspaper blue"> 36 Articles</i>
+                    </div>
+                </div>
+                <div class="info">
+                    <span>Joined 01/01/2019</span>
+                    <div class="buttons">
+                        <a class="profile-btn" href="profile.html">Profile</a>
+                        <a class="remove-btn" href="#">Remove</a>
+                    </div>
+                </div>
+            </div>
+            <div class="friend">
+                <div class="contact">
+                    <i class="fa-solid fa-phone"></i>
+                    <i class="fa-solid fa-envelope-circle-check"></i>
+                </div>
+                <div class="contact-info">
+                    <img src="Images/friend-01.jpg">
+                    <h4>Ramy Hamza</h4>
+                    <p>Front End Developer</p>
+                </div>
+                <div class="contact-icons">
+                    <div class="contact-icons-child">
+                        <i class="fa-solid fa-face-smile orange"> 30 Friends</i>
+                        <i class="fa-solid fa-chalkboard-user green"> 5 Projects</i>
+                        <i class="fa-solid fa-newspaper blue"> 7 Articles</i>
+                    </div>
+                </div>
+                <div class="info">
+                    <span>Joined 08/12/2023</span>
+                    <div class="buttons">
+                        <a class="profile-btn" href="profile.html">Profile</a>
+                        <a class="remove-btn" href="#">Remove</a>
+                    </div>
+                </div>
+            </div>
+            <div class="friend">
+                <div class="contact">
+                    <i class="fa-solid fa-phone"></i>
+                    <i class="fa-solid fa-envelope-circle-check"></i>
+                </div>
+                <div class="contact-info">
+                    <img src="Images/friend-04.jpg">
+                    <h4>Eslam Osama</h4>
+                    <p>Javascript Devloper</p>
+                </div>
+                <div class="contact-icons">
+                    <div class="contact-icons-child">
+                        <i class="fa-solid fa-face-smile orange"> 35 Friends</i>
+                        <i class="fa-solid fa-chalkboard-user green"> 17 Projects</i>
+                        <i class="fa-solid fa-newspaper blue"> 16 Articles</i>
+                    </div>
+                </div>
+                <div class="info">
+                    <span>Joined 05/12/2023</span>
+                    <div class="buttons">
+                        <a class="profile-btn" href="profile.html">Profile</a>
+                        <a class="remove-btn" href="#">Remove</a>
+                    </div>
+                </div>
+            </div>
+            <div class="friend">
+                <div class="contact">
+                    <i class="fa-solid fa-phone"></i>
+                    <i class="fa-solid fa-envelope-circle-check"></i>
+                </div>
+                <div class="contact-info">
+                    <img src="Images/friend-02.jpg">
+                    <h4>Mohammed Shaban</h4>
+                    <p>Backend Developer</p>
+                </div>
+                <div class="contact-icons">
+                    <div class="contact-icons-child">
+                        <i class="fa-solid fa-face-smile orange"> 50 Friends</i>
+                        <i class="fa-solid fa-chalkboard-user green"> 12 Projects</i>
+                        <i class="fa-solid fa-newspaper blue"> 25 Articles</i>
+                    </div>
+                </div>
+                <div class="info">
+                    <span>Joined 10/05/2022</span>
+                    <div class="buttons">
+                        <a class="profile-btn" href="profile.html">Profile</a>
+                        <a class="remove-btn" href="#">Remove</a>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+</div>
+<button id="scrolltotop" title="Scroll to top"><i class="fa-solid fa-angles-up"></i></button>
+<script src="main.js"></script>
+</body>
+</html>
